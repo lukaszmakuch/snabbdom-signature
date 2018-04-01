@@ -78,4 +78,4 @@ __Please, make sure that you're not calling `trust` on trees coming from untrust
 ## Development
 If you found a security vulnerability in this package, please write to me at kontakt@lukaszmakuch.pl.
 
-If you know a way to improve the performance or fix a bug which is not related to security, feel free to open an issue or submit a pull request.
+If you know a way to improve the performance or fix a bug which is not related to security, feel free to create an issue or submit a pull request.
