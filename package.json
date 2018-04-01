@@ -1,0 +1,31 @@
+{
+  "name": "snabbdom-signature",
+  "version": "0.0.1",
+  "description": "Protects against vnode injection.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "testem",
+    "build": "rm -rf dist && babel src -d dist",
+    "build-tests": "webpack --config webpack.config.js",
+    "clean-up-tests": "rm test/build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "snabbdom",
+    "vdom",
+    "security",
+    "xss"
+  ],
+  "author": "Łukasz Makuch <kontakt@lukaszmakuch.pl> (https://lukaszmakuch.pl)",
+  "license": "MIT",
+  "dependencies": {
+    "snabbdom": "^0.7.1",
+    "testem": "^2.2.0",
+    "webpack": "^4.4.1",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.13"
+  }
+}

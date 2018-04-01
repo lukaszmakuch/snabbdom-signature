@@ -1,0 +1,9 @@
+{
+  "src_files": [
+  ],
+  "serve_files": [
+    "test/build.js"
+  ],
+  "before_tests": "npm run build && npm run build-tests",
+  "on_exit": "npm run clean-up-tests"
+}
