@@ -30,7 +30,12 @@ const patch = snabbdom.init([
 ```
 Since now the `patch` function throws an error (`Error: Patching with a vnode which is not correctly signed!`) when it encounters an unsigned vnode.
 
-## Configuration
+## Getting Snabbdom-Signature
+First, install the package.
+```
+npm i snabbdom-signature
+```
+Then, add the `denyUnlessSigned` module to your snabbdom init call and get the vnode signing version of the `h` function.
 ```javascript
 const snabbdom = require('snabbdom');
 // Include the Snabbdom-Signature package
