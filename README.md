@@ -8,7 +8,7 @@ const vnode = h('p', text);
 
 ## The problem Snabbdom-Signature solves
 Snabbdom vnodes are just data structures. 
-It's impossible distinguish vnodes created by the programmer from user-supplied objects. 
+It's impossible to distinguish vnodes created by the programmer from user-supplied objects. 
 Malicious vnodes may come from sources like web requests or document-oriented databases.
 It is a type of [XSS attacks](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)).
 
