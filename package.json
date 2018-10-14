@@ -1,6 +1,6 @@
 {
   "name": "snabbdom-signature",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Protects against vnode injection.",
   "main": "dist/index.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "babel-preset-env": "^1.4.0"
   },
   "devDependencies": {
-    "webpack-cli": "^2.0.13"
+    "webpack-cli": "^3.1.2"
   }
 }
